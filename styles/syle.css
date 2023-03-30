@@ -33,6 +33,19 @@ footer.y_foot {
     padding: 0;
 }
 
+.y_dnone {
+    display: none;
+}
+
+.inputf:focus-within+.showonfocus {
+    display: block;
+    z-index: 10;
+}
+
+.showonfocus a:hover {
+    background-color: rgb(189, 173, 151);
+}
+
 @media (min-width:1400px) {
     .container {
 

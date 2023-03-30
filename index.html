@@ -8,6 +8,9 @@
         href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" />
     <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
     </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/syle.css">
@@ -16,72 +19,136 @@
 <body>
     <header class="y_bord " style="height: 170px;">
         <div class="container-fluid position-fixed mt-0 y_backco header_top " style="height: 56px;">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary container ">
-                <div class="container-fluid y_backco p-0">
-                    <a class="navbar-brand text-light" href="#">Flipkart </a>
-                    <!-- <form class="d-flex pt-2 row" role="search">
-                        <input class="form-control me-6 col-xs-6" type="search"
-                            placeholder=" Search for products, brands and more" aria-label="Search">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-1  p-0">
+                        <a class="navbar-brand text-light fw-bold fs-5 bg-primary d-inline-block text-center m-auto w-100"
+                            href="#">Flipkart </a>
+                        <a href="#plus" class="fs-6 text-decoration-none text-light p-0" style="display: block;
+                            font-size: 13px!important;
+                            margin-top: -8px !important;">
+                            Explore
+                            <span class="text-warning">Plus</span>
+                            <img src="./images/navbar/exploreplus.png" alt="" width="10">
+                        </a>
+                    </div>
+                    <div class="col-6 p-1 ">
+                        <form class="w-100 inputf" role="search">
+                            <div class="w-100">
+                                <input type="text" class="m-0 " placeholder=" Search for products,brands and more"
+                                    aria-label="Search" type="search" style="width: 500px; height: 42px;">
+                                <button class="p-0 m-0 btn text-primary" style="margin: -27px !important;">
+                                    <i class="fa-solid fa-magnifying-glass "></i>
+                                </button>
 
-                    </form> -->
-                    <form class="d-flex pt-2 row" role="search">
-                        <div class="form-group row">
-                            <div class="col-xs-6">
-                                <input class="form-control" id="ex1" type="search"
-                                    placeholder=" Search for products,brands and more" aria-label="Search">
                             </div>
-                        </div>
-                    </form>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Yogesh
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
+
+                        </form>
+                        <div class="bg-danger showonfocus y_dnone" style="width: 500px;height: 190px;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0">
+                                    <a href="#" class="text-decoration-none text-dark d-block"> <i
+                                            class="fa-solid fa-rotate-right fa-flip-horizontal me-3"></i>
+                                        tshirt
+                                    </a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li class="list-group-item border-0">
+                                    <a href="#" class="text-decoration-none text-dark d-block"> <i
+                                            class="fa-solid fa-rotate-right fa-flip-horizontal me-3"></i>
+                                        mobile phones
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <a href="#" class="text-decoration-none text-dark d-block">
+                                        <img src="./images/navbar/1.webp" class="me-3" height="40">
+                                        oppo mobile
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="#" class="text-decoration-none text-dark d-block">
+                                        <img src="./images/navbar/2.webp" class="me-3" height="40">
+                                        tshirt for women
+                                    </a>
+                                </li>
                             </ul>
-                        </li>
-                    </ul>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Become a Seller</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    More
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Cart</a>
-                            </li>
-
-                        </ul>
+                        </div>
 
                     </div>
+                    <div class="col-5">
+                        <div class="row mt-2">
+                            <div class="col-3">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Yogesh
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-user me-3 bg-light text-primary rounded-5"
+                                                        style="padding: 2px !important;"></i>My
+                                                    profile
+                                                </a>
+                                            </li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-square-up-right me-3 bg-light text-primary rounded-5"
+                                                        style="padding: 2px !important;"></i>Oders
+                                                </a>
+
+                                            </li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-power-off me-3 bg-light text-primary rounded-5"
+                                                        style="padding: 2px !important;"></i>logout
+                                                </a>
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <a class="nav-link text-light fw-bold mt-2" href="#">Become a Seller</a>
+                            </div>
+                            <div class="col-2 ">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            More
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-bell me-3 bg-light text-primary rounded-5"
+                                                        style="padding: 2px !important;"></i>Notification preference
+                                                </a>
+
+                                            </li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid  fa-arrow-down me-3 bg-light text-primary rounded-5"
+                                                        style="padding: 2px !important;"></i>Oders
+                                                </a>
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <a class="nav-link active text-light fw-bold m-2" aria-current="page" href="#">
+                                    <i class="fa-solid fa-cart-shopping "></i>Cart</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
+            </div>
+
+
+
         </div>
         <div class="header_bottom bg-danger y_bord container-fluid ">
             <nav class="navbar navbar-expand-lg bg-body-tertiary h-100">
@@ -99,7 +166,8 @@
                             </li>
                             <li class="nav-item me-5">
                                 <a class="nav-link " href="#">
-                                    <img src="./images/navbar/bottom/3.webp" alt="" height="75px"><br>Fashion</a>
+                                    <img src="./images/navbar/bottom/3.webp" alt="" height="75px"><br>Fashion<i
+                                        class="fa-solid fa-chevron-down ms-1"></i></a>
                             </li>
                             <li class="nav-item me-5">
                                 <a class="nav-link " href="#">
@@ -107,7 +175,8 @@
                             </li>
                             <li class="nav-item me-5">
                                 <a class="nav-link " href="#">
-                                    <img src="./images/navbar/bottom/5.webp" alt="" height="75px"><br>Home</a>
+                                    <img src="./images/navbar/bottom/5.webp" alt="" height="75px"><br>Home<i
+                                        class="fa-solid fa-chevron-down ms-1"></i></a>
                             </li>
                             <li class="nav-item me-5">
                                 <a class="nav-link " href="#">
@@ -166,6 +235,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
