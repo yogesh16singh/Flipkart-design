@@ -1,0 +1,41 @@
+.y_bord {
+    /* height: 170px; */
+    border: 2px solid black;
+}
+
+.header_top {
+    z-index: 55;
+}
+
+.header_bottom {
+    height: 110px;
+    position: absolute;
+    top: 58px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.y_backco {
+    background-color: #2874F0;
+    /* height: 56px; */
+}
+
+main {
+    height: 1000px;
+}
+
+footer.y_foot {
+    height: 340px;
+    background-color: #172337;
+}
+
+.navbar {
+    padding: 0;
+}
+
+@media (min-width:1400px) {
+    .container {
+
+        max-width: 1087px;
+    }
+}
