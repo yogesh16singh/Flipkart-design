@@ -68,9 +68,18 @@ footer.y_foot {
     background-color: #172337;
 }
 
+footer hr {
+    padding: 1px;
+
+}
+
 .y_footer_top {
     height: 277px;
-    background-color: #2874F0 !important;
+    /* border: 2px solid red; */
+}
+
+.y_footer_top a {
+    font-size: 0.8rem;
 }
 
 .y_footer_bottom {
