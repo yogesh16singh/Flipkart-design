@@ -1,9 +1,0 @@
- <a href="">
-                                    <img class=" " src="./images/section2/2.webp" alt="Cat_Mob_HPW_Realme 10 Pro "
-                                        height="100px" class="img-fluid">
-                                    <div>Moto 18 </div>
-                                    <div>6000 mAh Battery</div>
-                                    <div>Just ₹6,999</div>
-
-
-                                </a>
